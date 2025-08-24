@@ -263,10 +263,9 @@ For bento newcomers, we recommend this tasting sequence:
    - `*bento enable` - Activate system
    - `*bento disable` - Deactivate system
    - `*bento <prompt>` - Enable + Execute request
-4. **MAINTAIN** session state throughout conversation
-
-- ➡️ **[CLICK HERE TO ENABLE: flow-bento/enable.md](./enable.md)** ⬅️
-- ➡️ **[COMMAND REFERENCE: bento-commands.md](./bento-commands.md)** ⬅️
+4. **MAINTAIN** session state throughout conversation:
+   - ➡️ **[CLICK HERE TO ENABLE: flow-bento/enable.md](./enable.md)** ⬅️
+   - ➡️ **[COMMAND REFERENCE: bento-commands.md](./bento-commands.md)** ⬅️
 
 ---
 
