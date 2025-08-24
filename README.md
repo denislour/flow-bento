@@ -77,16 +77,16 @@ The spicy additions for system-level tasks:
 
 The essential tools shared across all meals:
 
-- ✅ `symbol-kinds-reference.md` - Your trusty chopsticks (LSP symbol types) 🥢
-- ✅ `request-templates.md` - Recipe templates for common dishes 📜
-- ✅ `replace-symbol-quick-ref.md` - Quick reference for symbol modifications ⚡
-- ✅ `replace-symbol-prompt-template.md` - Structured prompt templates 📋
-- `output-formats.md` - Plating instructions for beautiful presentation 🍽️
-- `best-practices.md` - Master chef recommendations 👨‍🍳
+- 🥢 `symbol-kinds-reference.md` - Your trusty chopsticks (LSP symbol types) 🥢
+- 🥢 `request-templates.md` - Recipe templates for common dishes 📜
+- 🥢 `replace-symbol-quick-ref.md` - Quick reference for symbol modifications ⚡
+- 🥢 `replace-symbol-prompt-template.md` - Structured prompt templates 📋
+- 🥢 `output-formats.md` - Plating instructions for beautiful presentation 🍽️
+- 🥢 `best-practices.md` - Master chef recommendations 👨‍🍳
 
 ### 🧠 **Master LLM Interaction Guide**
 
-- ✅ `llm-interaction-master-guide.md` - Advanced AI interaction patterns for complex scenarios 🤖✨
+- 🧠 `llm-interaction-master-guide.md` - Advanced AI interaction patterns for complex scenarios 🤖✨
 
 ## 🍽️ How to Enjoy Your Flow-Bento
 
