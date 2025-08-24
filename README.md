@@ -11,9 +11,117 @@
 
 Welcome to **Flow-Bento** - a deliciously organized system that packages development workflows into neat, digestible portions! 🥢✨
 
-Just like a traditional Japanese bento box contains perfectly portioned, balanced meals, Flow-Bento contains perfectly structured, balanced development workflows that nourish your coding productivity!
+Like a traditional Japanese bento that serves perfectly portioned, balanced meals, Flow‑Bento delivers well‑structured, balanced workflows that boost your coding productivity.
 
-## 🎮 **\*bento Command System**
+## 🍱 What's in Your Development Bento Box?
+
+Each part of Flow‑Bento holds a few selected workflows that work well together.
+
+### 🍙 **file-operations/** (Rice Base - Foundation)
+
+The essential foundation of your development meal:
+
+- 🍙 `read-file.md` - Savoring file contents with care 📜
+- 🍙 `create-file.md` - Crafting fresh new files 🎆
+- 🍙 `list-directory.md` - Exploring the pantry structure 🗂️
+- 🍙 `find-files.md` - Hunting for specific ingredients 🔍
+- 🍙 `replace-regex.md` - Seasoning with pattern replacements 🧂
+
+### 🍣 **symbol-analysis/** (Main Protein - Core Logic)
+
+The hearty protein that powers your development:
+
+- 🍣 `find-symbol.md` - Locating the perfect code cuts 🔪
+- 🍣 `find-references.md` - Tracing ingredient origins 🔍
+- 🍣 `symbols-overview.md` - Getting the full recipe overview 📈
+- 🍣 `replace-symbol.md` - Masterfully preparing code modifications 👨‍🍳
+
+### 🥗 **project-management/** (Pickled Vegetables - Configuration)
+
+The tangy, preserved settings that add flavor:
+
+- 🥗 `activate-project.md` - Opening your development kitchen 🏠
+- 🥗 `remove-project.md` - Cleaning up the workspace 🧹
+- 🥗 `switch-modes.md` - Changing cooking styles 🔄
+- 🥗 `get-current-config.md` - Checking your recipe settings ⚙️
+
+### 🍟 **memory-management/** (Side Dishes - Knowledge)
+
+Small but essential knowledge bites that enhance the experience:
+
+- 🍟 `write-memory.md` - Preserving cooking secrets 📝
+- 🍟 `read-memory.md` - Recalling stored wisdom 🧠
+- 🍟 `list-memories.md` - Browsing your recipe collection 📚
+- 🍟 `delete-memory.md` - Discarding spoiled knowledge 🗑️
+
+### 🍵 **workflow-tools/** (Tea & Mindfulness - Process)
+
+The calming, centering elements for thoughtful development:
+
+- 🍵 `check-onboarding-performed.md` - Testing if the kitchen is ready 🔍
+- 🍵 `onboarding.md` - Learning to use the kitchen properly 🎓
+- 🍵 `think-about-collected-information.md` - Contemplating ingredients 🤔
+- 🍵 `think-about-task-adherence.md` - Staying focused on the recipe 🎯
+- 🍵 `think-about-whether-you-are-done.md` - Tasting for completion 👅
+- 🍵 `summarize-changes.md` - Recording the cooking process 📝
+- 🍵 `prepare-for-new-conversation.md` - Setting up for next meal 🍽️
+- 🍵 `initial-instructions.md` - Reading the cooking basics 📖
+
+### 🌶️ **command-execution/** (Condiments - System Operations)
+
+The spicy additions for system-level tasks:
+
+- 🌶️ `execute-commands.md` - Adding some heat with shell commands 🔥
+
+### 🥢 **common/** (Shared Utensils - Resources)
+
+The essential tools shared across all meals:
+
+- ✅ `symbol-kinds-reference.md` - Your trusty chopsticks (LSP symbol types) 🥢
+- ✅ `request-templates.md` - Recipe templates for common dishes 📜
+- ✅ `replace-symbol-quick-ref.md` - Quick reference for symbol modifications ⚡
+- ✅ `replace-symbol-prompt-template.md` - Structured prompt templates 📋
+- `output-formats.md` - Plating instructions for beautiful presentation 🍽️
+- `best-practices.md` - Master chef recommendations 👨‍🍳
+
+### 🧠 **Master LLM Interaction Guide**
+
+- ✅ `llm-interaction-master-guide.md` - Advanced AI interaction patterns for complex scenarios 🤖✨
+
+## 🍽️ How to Enjoy Your Flow-Bento
+
+1. **🔍 Open the bento box** - Browse available workflow compartments
+2. **🥢 Pick your chopsticks** - Select the right workflow for your task
+3. **🍵 Follow the tea ceremony** - Execute the 4-step process mindfully
+4. **🤤 Savor each bite** - Apply workflows with natural language precision
+5. **😋 Get satisfying results** - Enjoy consistent, delicious outcomes!
+
+## 🍱 The Flow-Bento Philosophy (4-Step Cooking Process)
+
+Every workflow in Flow-Bento follows our time-honored cooking tradition:
+
+```
+📋 Step 1: Mise en Place (Define/Specify Requirements)
+→ Gather and prepare all your ingredients
+
+🔥 Step 2: Prep Work (Validate/Setup)
+→ Heat the pan and validate everything is ready
+
+👨‍🍳 Step 3: Cooking (Execute Main Functionality)
+→ Apply heat and transform ingredients into something delicious
+
+🍽️ Step 4: Plating (Format/Return Results)
+→ Present your creation beautifully and garnish appropriately
+```
+
+Each step includes:
+
+- 📝 Clear cooking instructions and ingredient lists
+- 🌍 Multiple cuisine examples (Python, Java, JavaScript, TypeScript, Ruby, Go, C#)
+- ⚠️ Disaster recovery and kitchen safety tips
+- 👨‍🍳 Master chef techniques and plating guidance
+
+## 🍱 **\*bento Command System**
 
 ### 💬 **User Control Commands:**
 
@@ -91,114 +199,6 @@ Just like a traditional Japanese bento box contains perfectly portioned, balance
        🍱 *bento <prompt> still works for one-time workflow execution"
 ```
 
-## 🍱 What's in Your Development Bento Box?
-
-Each "compartment" in our Flow-Bento contains carefully curated workflows that work together harmoniously:
-
-### 🍟 **file-operations/** (Rice Base - Foundation)
-
-The essential foundation of your development meal:
-
-- ✅ `read-file.md` - Savoring file contents with care 📜
-- ✅ `create-file.md` - Crafting fresh new files 🎆
-- ✅ `list-directory.md` - Exploring the pantry structure 🗂️
-- ✅ `find-files.md` - Hunting for specific ingredients 🔍
-- ✅ `replace-regex.md` - Seasoning with pattern replacements 🧂
-
-### 🍣 **symbol-analysis/** (Main Protein - Core Logic)
-
-The hearty protein that powers your development:
-
-- ✅ `find-symbol.md` - Locating the perfect code cuts 🔪
-- ✅ `find-references.md` - Tracing ingredient origins 🔍
-- ✅ `symbols-overview.md` - Getting the full recipe overview 📈
-- ✅ `replace-symbol.md` - Masterfully preparing code modifications 👨‍🍳
-
-### 🥗 **project-management/** (Pickled Vegetables - Configuration)
-
-The tangy, preserved settings that add flavor:
-
-- ✅ `activate-project.md` - Opening your development kitchen 🏠
-- `remove-project.md` - Cleaning up the workspace 🧹
-- `switch-modes.md` - Changing cooking styles 🔄
-- `get-current-config.md` - Checking your recipe settings ⚙️
-
-### 🍙 **memory-management/** (Side Dishes - Knowledge)
-
-Small but essential knowledge bites that enhance the experience:
-
-- ✅ `write-memory.md` - Preserving cooking secrets 📝
-- ✅ `read-memory.md` - Recalling stored wisdom 🧠
-- ✅ `list-memories.md` - Browsing your recipe collection 📚
-- ✅ `delete-memory.md` - Discarding spoiled knowledge 🗑️
-
-### 🍵 **workflow-tools/** (Tea & Mindfulness - Process)
-
-The calming, centering elements for thoughtful development:
-
-- ✅ `check-onboarding-performed.md` - Testing if the kitchen is ready 🔍
-- ✅ `onboarding.md` - Learning to use the kitchen properly 🎓
-- ✅ `think-about-collected-information.md` - Contemplating ingredients 🤔
-- ✅ `think-about-task-adherence.md` - Staying focused on the recipe 🎯
-- ✅ `think-about-whether-you-are-done.md` - Tasting for completion 👅
-- ✅ `summarize-changes.md` - Recording the cooking process 📝
-- ✅ `prepare-for-new-conversation.md` - Setting up for next meal 🍽️
-- ✅ `initial-instructions.md` - Reading the cooking basics 📖
-
-### 🌶️ **command-execution/** (Condiments - System Operations)
-
-The spicy additions for system-level tasks:
-
-- ✅ `execute-commands.md` - Adding some heat with shell commands 🔥
-
-### 🥢 **common/** (Shared Utensils - Resources)
-
-The essential tools shared across all meals:
-
-- ✅ `symbol-kinds-reference.md` - Your trusty chopsticks (LSP symbol types) 🥢
-- ✅ `request-templates.md` - Recipe templates for common dishes 📜
-- ✅ `replace-symbol-quick-ref.md` - Quick reference for symbol modifications ⚡
-- ✅ `replace-symbol-prompt-template.md` - Structured prompt templates 📋
-- `output-formats.md` - Plating instructions for beautiful presentation 🍽️
-- `best-practices.md` - Master chef recommendations 👨‍🍳
-
-### 🧠 **Master LLM Interaction Guide**
-
-- ✅ `llm-interaction-master-guide.md` - Advanced AI interaction patterns for complex scenarios 🤖✨
-
-## 🍽️ How to Enjoy Your Flow-Bento
-
-1. **🔍 Open the bento box** - Browse available workflow compartments
-2. **🥢 Pick your chopsticks** - Select the right workflow for your task
-3. **🍵 Follow the tea ceremony** - Execute the 4-step process mindfully
-4. **🤤 Savor each bite** - Apply workflows with natural language precision
-5. **😋 Get satisfying results** - Enjoy consistent, delicious outcomes!
-
-## 🍱 The Flow-Bento Philosophy (4-Step Cooking Process)
-
-Every workflow in Flow-Bento follows our time-honored cooking tradition:
-
-```
-📋 Step 1: Mise en Place (Define/Specify Requirements)
-→ Gather and prepare all your ingredients
-
-🔥 Step 2: Prep Work (Validate/Setup)
-→ Heat the pan and validate everything is ready
-
-👨‍🍳 Step 3: Cooking (Execute Main Functionality)
-→ Apply heat and transform ingredients into something delicious
-
-🍽️ Step 4: Plating (Format/Return Results)
-→ Present your creation beautifully and garnish appropriately
-```
-
-Each step includes:
-
-- 📝 Clear cooking instructions and ingredient lists
-- 🌍 Multiple cuisine examples (Python, Java, JavaScript, TypeScript, Ruby, Go, C#)
-- ⚠️ Disaster recovery and kitchen safety tips
-- 👨‍🍳 Master chef techniques and plating guidance
-
 ## 🔢 Ingredient Reference (Symbol Kinds)
 
 - **1** = 📄 file (base ingredients)
@@ -243,13 +243,13 @@ For bento newcomers, we recommend this tasting sequence:
 
 ## 🎆 Why Flow-Bento is Deliciously Effective
 
-✅ **🏠 No Kitchen Dependencies** - Pure natural language cooking methods
-✅ **🌍 Multi-Cuisine Support** - Works with Python, Java, JavaScript, TypeScript, Ruby, Go, C#
-✅ **🍱 Consistent Presentation** - All workflows follow 4-step bento structure
-✅ **📚 Comprehensive Recipes** - Real-world cooking scenarios and use cases
-✅ **⚠️ Kitchen Safety** - Built-in validation and disaster recovery
-✅ **👨‍🍳 Master Chef Guidance** - Integrated culinary best practices
-✅ **😋 Quality Assurance** - Mindful tasting workflows for perfect results
+- **🏠 No Kitchen Dependencies** - Pure natural language cooking methods
+- **🌍 Multi-Cuisine Support** - Works with Python, Java, JavaScript, TypeScript, Ruby, Go, C#
+- **🍱 Consistent Presentation** - All workflows follow 4-step bento structure
+- **📚 Comprehensive Recipes** - Real-world cooking scenarios and use cases
+- **⚠️ Kitchen Safety** - Built-in validation and disaster recovery
+- **👨‍🍳 Master Chef Guidance** - Integrated culinary best practices
+- **😋 Quality Assurance** - Mindful tasting workflows for perfect results
 
 ---
 
